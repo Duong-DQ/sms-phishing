@@ -2,7 +2,7 @@
 ### Installation
   ```
   $ cd zphisher/sms
-  $ pip install -r "requirement.txt"
+  $ pip install -r "requirements.txt"
   $ cd ..
   $ bash zphisher.sh
   ```

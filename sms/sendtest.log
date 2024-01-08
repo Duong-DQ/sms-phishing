@@ -1,0 +1,222 @@
+[INFO] 2024-01-03 13:45:55 - Loaded configuration from file 'smishing.conf'.
+[WARNING] 2024-01-03 13:46:04 - No victim loaded
+[CRITICAL] 2024-01-03 13:46:56 - Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 623, in <module>
+    main()
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 567, in main
+    testMenu()
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 446, in testMenu
+    presend(victims, messagePath, recovery=False)
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 333, in presend
+    with open(messagePath, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '2'
+
+[INFO] 2024-01-03 13:46:58 - Loaded configuration from file 'smishing.conf'.
+[WARNING] 2024-01-03 13:47:01 - File not found 'victims.list', change the file name in settings.
+[INFO] 2024-01-03 13:48:08 - Loaded configuration from file 'smishing.conf'.
+[INFO] 2024-01-03 13:48:38 - Sending SMS to Test Test at 0356621169
+[CRITICAL] 2024-01-03 13:48:39 - Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 623, in <module>
+    main()
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 567, in main
+    testMenu()
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 446, in testMenu
+    presend(victims, messagePath, recovery=False)
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 352, in presend
+    if(sendSMS(victim, body)):
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 317, in sendSMS
+    message = client.messages \
+  File "C:\Users\Admin\miniconda3\lib\site-packages\twilio\rest\api\v2010\account\message\__init__.py", line 560, in create
+    payload = self._version.create(
+  File "C:\Users\Admin\miniconda3\lib\site-packages\twilio\base\version.py", line 465, in create
+    return self._parse_create(method, uri, response)
+  File "C:\Users\Admin\miniconda3\lib\site-packages\twilio\base\version.py", line 436, in _parse_create
+    raise self.exception(method, uri, response, "Unable to create record")
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACe82df567bb862eba08f9f72af5c21f3e/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Invalid 'To' Phone Number: 035662XXXX[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21211[0m
+
+
+
+[INFO] 2024-01-03 13:50:08 - Loaded configuration from file 'smishing.conf'.
+[INFO] 2024-01-03 13:51:09 - Sending SMS to Test Test at +84342362656
+[CRITICAL] 2024-01-03 13:51:10 - Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 623, in <module>
+    main()
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 567, in main
+    testMenu()
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 446, in testMenu
+    presend(victims, messagePath, recovery=False)
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 352, in presend
+    if(sendSMS(victim, body)):
+  File "C:\Users\Admin\Desktop\smishing-master\smishing.py", line 317, in sendSMS
+    message = client.messages \
+  File "C:\Users\Admin\miniconda3\lib\site-packages\twilio\rest\api\v2010\account\message\__init__.py", line 560, in create
+    payload = self._version.create(
+  File "C:\Users\Admin\miniconda3\lib\site-packages\twilio\base\version.py", line 465, in create
+    return self._parse_create(method, uri, response)
+  File "C:\Users\Admin\miniconda3\lib\site-packages\twilio\base\version.py", line 436, in _parse_create
+    raise self.exception(method, uri, response, "Unable to create record")
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACe82df567bb862eba08f9f72af5c21f3e/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The number +8434236XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +8434236XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21608[0m
+
+
+
+[INFO] 2024-01-03 14:01:12 - Loaded configuration from file 'smishing.conf'.
+[INFO] 2024-01-03 14:01:39 - Sending SMS to Test Test at +84356621169
+[INFO] 2024-01-03 14:01:41 - 1/1 sms sent
+[INFO] 2024-01-03 14:01:43 - Sending SMS is done
+[WARNING] 2024-01-03 14:02:04 - No victim loaded
+[INFO] 2024-01-03 14:03:34 - Parsing files
+[INFO] 2024-01-03 14:03:34 - 1 victims has been parsed
+[INFO] 2024-01-03 14:03:51 - Sending SMS to Duong DQ at +84356621169
+[INFO] 2024-01-03 14:03:52 - 1/1 sms sent
+[INFO] 2024-01-03 14:03:54 - Sending SMS is done
+[INFO] 2024-01-09 03:45:26 - Loaded configuration from file 'smishing.conf'.
+[WARNING] 2024-01-09 03:45:34 - No victim loaded
+[WARNING] 2024-01-09 03:45:45 - Only a valid number is accepted
+[INFO] 2024-01-09 03:46:09 - Sending SMS to Test Test at 0356621169
+[CRITICAL] 2024-01-09 03:46:10 - Traceback (most recent call last):
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 612, in <module>
+    main()
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 556, in main
+    testMenu()
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 435, in testMenu
+    presend(victims, messagePath, recovery=False)
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 352, in presend
+    if(sendSMS(victim, body)):
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 317, in sendSMS
+    message = client.messages \
+  File "/home/duong/.local/lib/python3.10/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 560, in create
+    payload = self._version.create(
+  File "/home/duong/.local/lib/python3.10/site-packages/twilio/base/version.py", line 465, in create
+    return self._parse_create(method, uri, response)
+  File "/home/duong/.local/lib/python3.10/site-packages/twilio/base/version.py", line 436, in _parse_create
+    raise self.exception(method, uri, response, "Unable to create record")
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACe82df567bb862eba08f9f72af5c21f3e/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Invalid 'To' Phone Number: 035662XXXX[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21211[0m
+
+
+
+[INFO] 2024-01-09 03:46:40 - Loaded configuration from file 'smishing.conf'.
+[INFO] 2024-01-09 03:47:00 - Sending SMS to Test Test at 84356621169
+[CRITICAL] 2024-01-09 03:47:01 - Traceback (most recent call last):
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 612, in <module>
+    main()
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 556, in main
+    testMenu()
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 435, in testMenu
+    presend(victims, messagePath, recovery=False)
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 352, in presend
+    if(sendSMS(victim, body)):
+  File "/home/duong/workspace/zphisher/sms/smishing.py", line 317, in sendSMS
+    message = client.messages \
+  File "/home/duong/.local/lib/python3.10/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 560, in create
+    payload = self._version.create(
+  File "/home/duong/.local/lib/python3.10/site-packages/twilio/base/version.py", line 465, in create
+    return self._parse_create(method, uri, response)
+  File "/home/duong/.local/lib/python3.10/site-packages/twilio/base/version.py", line 436, in _parse_create
+    raise self.exception(method, uri, response, "Unable to create record")
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACe82df567bb862eba08f9f72af5c21f3e/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Invalid 'To' Phone Number: 8435662XXXX[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21211[0m
+
+
+
+[INFO] 2024-01-09 03:47:03 - Loaded configuration from file 'smishing.conf'.
+[INFO] 2024-01-09 03:47:14 - Successfully loaded 1 victims
+[INFO] 2024-01-09 03:47:32 - Sending SMS to Duong DQ at +84356621169
+[INFO] 2024-01-09 03:47:34 - 1/1 sms sent
+[INFO] 2024-01-09 03:47:36 - Sending SMS is done
+[CRITICAL] 2024-01-09 04:05:04 - Could not load configuration file 'send-sms.conf'. The script will automatically create one with default values.
+[WARNING] 2024-01-09 04:05:04 - Attempt to create configuration file 'send-sms.conf'...
+[INFO] 2024-01-09 04:05:04 - Successfully created 'send-sms.conf'.
+[INFO] 2024-01-09 04:05:32 - Loaded configuration from file 'send-sms.conf'.
+[WARNING] 2024-01-09 04:05:32 - No victim loaded
+[INFO] 2024-01-09 04:07:14 - Loaded configuration from file 'send-sms.conf'.
+[WARNING] 2024-01-09 04:07:14 - No victim loaded
+[INFO] 2024-01-09 04:08:25 - Loaded configuration from file 'send-sms.conf'.
+[CRITICAL] 2024-01-09 04:08:25 - Traceback (most recent call last):
+  File "/home/duong/workspace/zphisher/sms/send-sms.py", line 299, in <module>
+    main()
+  File "/home/duong/workspace/zphisher/sms/send-sms.py", line 293, in main
+    loadMenu()
+  File "/home/duong/workspace/zphisher/sms/send-sms.py", line 279, in loadMenu
+    Application().recoveryList = Application().victimList.copy()
+AttributeError: 'NoneType' object has no attribute 'copy'
+
+[INFO] 2024-01-09 04:10:57 - Loaded configuration from file 'send-sms.conf'.
+[WARNING] 2024-01-09 04:11:04 - No victim loaded
+[INFO] 2024-01-09 04:13:06 - Loaded configuration from file 'send-sms.conf'.
+[INFO] 2024-01-09 04:13:12 - Successfully loaded 1 victims
+[INFO] 2024-01-09 04:13:31 - Loaded configuration from file 'send-sms.conf'.
+[INFO] 2024-01-09 04:13:34 - Successfully loaded 1 victims
+[INFO] 2024-01-09 04:14:02 - Loaded configuration from file 'send-sms.conf'.
+[INFO] 2024-01-09 04:14:02 - Successfully loaded 1 victims
+[INFO] 2024-01-09 04:15:22 - Loaded configuration from file 'send-sms.conf'.
+[INFO] 2024-01-09 04:15:22 - Successfully loaded 1 victims
+[INFO] 2024-01-09 04:26:09 - Loaded configuration from file 'send-sms.conf'.
+[INFO] 2024-01-09 04:26:09 - Successfully loaded 1 victims
+2024-01-09 04:28:56 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 04:28:56 - Successfully loaded 1 victims
+2024-01-09 04:35:51 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 04:35:51 - Successfully loaded 1 victim phonenumbers
+2024-01-09 04:36:01 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 04:36:01 - Successfully loaded 1 victim phonenumbers
+2024-01-09 04:37:26 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 04:37:26 - Successfully loaded 1 victim phonenumbers
+2024-01-09 04:46:05 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 04:46:05 - Successfully loaded 1 victim phonenumbers
+2024-01-09 04:46:13 - Sending SMS to Duong DQ at +84356621169
+2024-01-09 04:46:14 - 1/1 sms sent
+2024-01-09 04:46:16 - Sending SMS is done
+2024-01-09 04:50:43 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 04:50:43 - Successfully loaded 1 victim phonenumbers
+2024-01-09 04:50:45 - Sending SMS to Duong DQ at +84356621169
+2024-01-09 04:50:46 - 1/1 sms sent
+2024-01-09 04:50:48 - Sending SMS is done
+2024-01-09 05:27:01 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 05:27:01 - Successfully loaded 1 victim phonenumbers
+2024-01-09 05:27:05 - Sending SMS to Duong DQ at +84356621169
+2024-01-09 05:27:06 - 1/1 sms sent
+2024-01-09 05:27:08 - Sending SMS is done
+2024-01-09 05:31:27 - Loaded configuration from file 'send-sms.conf'.
+2024-01-09 05:31:27 - Successfully loaded 1 victim phonenumbers
