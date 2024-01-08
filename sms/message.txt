@@ -1,0 +1,4 @@
+Dear {firstname} {lastname},
+The password to your email {email} is schelduled to expire in 48hrs.
+Please follow the link below to update your login information.
+{link}
